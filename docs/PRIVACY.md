@@ -27,6 +27,7 @@ Touchstone(시금석) 개발자(이하 '개발자')는 Touchstone iPhone 앱, Ma
 - 이름, 이메일 주소, 전화번호 등 회원 정보
 - 서비스 이용 기록, 접속 기록, 기기 식별 정보
 - 이용자가 검사한 웹페이지의 글과 그 판정 결과, API 키, 연결용 비밀값
+- 결제 정보: iPhone 앱은 유료이며 결제는 Apple의 App Store가 처리합니다. 개발자는 이용자의 이름, 카드 정보 등 결제 정보를 받지 않고, Apple이 제공하는 판매 수 같은 집계된 통계만 볼 수 있습니다.
 
 ### 제6조 (기기 밖으로 나가는 정보)
 서비스는 이용자가 "검사"를 누르거나 자동 검사를 켠 사이트에서만 다음 정보를 보냅니다. 이 정보는 이용자가 고른 서비스로 직접 전송되며, 개발자는 이 정보를 받지 않습니다. 각 서비스는 자신의 개인정보 처리방침에 따라 이 정보를 처리합니다.
@@ -103,6 +104,7 @@ The Developer does not collect your personal information. In particular, the Dev
 - Member details such as name, email address or phone number
 - Usage records, access records or device identifiers
 - The text of the web pages you check and its verdicts, your API keys, or the pairing secret
+- Payment details: the iPhone app is paid and Apple's App Store handles the payment. The Developer receives no name, card or other payment details, and sees only aggregate statistics such as the number of sales that Apple provides.
 
 ### Article 6 (What leaves your devices)
 The Service sends the following only on sites where you press "Check" or have turned on auto-check. It goes directly to the service you chose; the Developer never receives it. Each of those services handles it under its own privacy policy.
