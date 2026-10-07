@@ -1,0 +1,55 @@
+---
+title: Support – Touchstone
+description: How to contact us about Touchstone, plus fixes for pairing, the cursor, missing underlines and buzzing.
+---
+<section class="page-head wrap">
+  <h1>Need a hand?</h1>
+  <p class="lead">Send us an email. The most common problems are below.</p>
+</section>
+
+<section class="section wrap" aria-labelledby="contact-title">
+  <div class="contact-card">
+    <span class="card-icon">{{@icon name="mail"}}</span>
+    <div>
+      <h2 id="contact-title">Email us</h2>
+      <p class="contact-mail">{{@email subject="Touchstone support"}}</p>
+      <p class="muted">Tell us your iPhone and Mac models and OS versions, your browser, and what happened. Never send an API key or a password. We can't promise a response time.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" aria-labelledby="trouble-title">
+  <div class="section-head"><h2 id="trouble-title">Common problems</h2></div>
+  <div class="faq">
+    <details id="cannot-pair">
+      <summary>My iPhone and Mac won't connect</summary>
+      <div class="answer"><ul>
+        <li>Check that Touchstone is running in the Mac menu bar and both devices are on the same Wi-Fi. If not, try a USB cable.</li>
+        <li>On the iPhone, turn on Touchstone in Settings &gt; Privacy &amp; Security &gt; Local Network.</li>
+        <li>Choose "New QR Code" in the Mac popup and scan the new code.</li>
+      </ul></div>
+    </details>
+    <details id="cursor-not-moving">
+      <summary>It's connected, but the cursor doesn't move</summary>
+      <div class="answer"><ul>
+        <li>Turn on Touchstone in System Settings &gt; Privacy &amp; Security &gt; Accessibility.</li>
+        <li>If it is already on, switch it off and on, then quit and reopen Touchstone.</li>
+      </ul></div>
+    </details>
+    <details id="no-underline">
+      <summary>I don't see any underline on the page</summary>
+      <div class="answer"><ul>
+        <li>Press "Check this page" in the extension.</li>
+        <li>Check the AI service and its API key (or local server address). Errors show in the extension popup.</li>
+        <li>"No wrong information found" means there is no wrong sentence.</li>
+      </ul></div>
+    </details>
+    <details id="no-buzz">
+      <summary>My iPhone doesn't buzz</summary>
+      <div class="answer"><ul>
+        <li>The extension should say "Connected to your Mac". If not, press "Connect to Mac" and choose "Allow" on the Mac.</li>
+        <li>Keep the cursor still on an underlined sentence.</li>
+      </ul></div>
+    </details>
+  </div>
+</section>

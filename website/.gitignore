@@ -1,0 +1,2 @@
+# Build output. Remove this line if you deploy by committing dist/ (e.g. GitHub Pages "deploy from a branch").
+dist/

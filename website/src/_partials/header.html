@@ -1,0 +1,17 @@
+<header class="site-header">
+  <div class="wrap header-bar">
+    <a class="brand" href="{{homeHref}}">
+      <img src="{{root}}assets/img/icon-256.png" width="36" height="36" alt="">
+      <span class="brand-name">Touchstone</span>{{#if t.siteNameLocal}}<span class="brand-local">{{t.siteNameLocal}}</span>{{/if}}
+    </a>
+    <nav class="lang-switch" aria-label="{{t.lang.label}}">
+      {{#each langs}}<a href="{{href}}" lang="{{code}}" hreflang="{{hreflang}}"{{#if current}} aria-current="true"{{/if}}>{{name}}</a>{{/each}}
+    </nav>
+    <nav class="site-nav" aria-label="{{t.nav.label}}">
+      <ul>
+        {{#each nav}}<li><a href="{{href}}"{{#if current}} aria-current="page"{{/if}}>{{label}}</a></li>
+        {{/each}}
+      </ul>
+    </nav>
+  </div>
+</header>

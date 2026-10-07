@@ -1,0 +1,29 @@
+{
+  "langName": "English",
+  "locale": "en_US",
+  "siteNameLocal": "",
+  "iconAlt": "Touchstone app icon: a black pebble with a gold streak",
+  "skip": "Skip to content",
+  "soon": "Coming soon",
+  "nav": {
+    "label": "Main menu",
+    "home": "Home",
+    "support": "Support",
+    "privacy": "Privacy",
+    "holder": "Trackpad holder"
+  },
+  "lang": {
+    "label": "Language"
+  },
+  "cta": {
+    "appStore": "Download on the App Store",
+    "mac": "Get the Mac app",
+    "chrome": "Get it on the Chrome Web Store"
+  },
+  "footer": {
+    "nav": "Site info",
+    "summary": "Touchstone has no server run by its developer and does not collect your information.",
+    "contact": "Contact",
+    "trademarks": "Apple, iPhone, Mac, Safari and App Store are trademarks of Apple Inc. Chrome and Gemini are trademarks of Google LLC, ChatGPT and OpenAI of OpenAI, and Claude of Anthropic. Touchstone is not affiliated with or endorsed by these companies."
+  }
+}

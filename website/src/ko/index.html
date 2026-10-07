@@ -1,0 +1,30 @@
+---
+title: Touchstone(시금석) – iPhone이 Mac의 트랙패드가 되고, 틀린 정보는 진동으로
+description: iPhone을 Mac의 트랙패드로 쓰고, 웹페이지의 틀린 정보 위에 커서가 멈추면 iPhone이 진동으로 알려주는 무료 앱이에요.
+---
+<section class="hero wrap">
+  <div class="hero-text">
+    <h1><span>iPhone이 트랙패드가 되고,</span> <span>틀린 정보는 진동으로</span></h1>
+    <p class="lead">까만 iPhone 화면이 Mac의 트랙패드가 돼요. 커서가 틀린 정보 위에 멈추면 iPhone이 진동으로 알려줘요.</p>
+    <div class="actions">
+      {{@button key="appStoreURL" label=t.cta.appStore}}
+      {{@button key="macDownloadURL" label=t.cta.mac variant="secondary"}}
+      {{@button key="chromeStoreURL" label=t.cta.chrome variant="secondary"}}
+    </div>
+    <p class="note">무료 · iOS 17 이상 iPhone · macOS 14 이상 Mac</p>
+  </div>
+  <div class="hero-art">
+    <img class="app-icon" src="{{root}}assets/img/icon-256.png" width="160" height="160" alt="{{t.iconAlt}}">
+  </div>
+</section>
+
+<section class="section wrap video-section" aria-labelledby="video-title">
+  <h2 id="video-title" class="visually-hidden">1분 사용법 동영상</h2>
+  <div class="video-card">
+    <video id="howto" controls playsinline preload="metadata" poster="{{root}}assets/video/howto-ko.jpg" aria-label="1분 사용법 동영상">
+      <source src="{{root}}assets/video/howto-ko.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="chips" role="group" aria-label="장면으로 이동"><button type="button" class="chip" data-t="3.6">설치</button><button type="button" class="chip" data-t="10">QR 연결</button><button type="button" class="chip" data-t="19">권한</button><button type="button" class="chip" data-t="25.5">확장</button><button type="button" class="chip" data-t="33">트랙패드</button><button type="button" class="chip" data-t="47.5">진동</button></div>
+  <script src="{{root}}assets/js/howto.js" defer></script>
+</section>

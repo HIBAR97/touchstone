@@ -1,0 +1,18 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand"><img src="{{root}}assets/img/icon-256.png" width="28" height="28" alt=""><span>Touchstone</span></p>
+        <p class="muted">{{t.footer.summary}}</p>
+      </div>
+      <nav aria-label="{{t.footer.nav}}">
+        <ul>
+          {{#each nav}}<li><a href="{{href}}">{{label}}</a></li>
+          {{/each}}
+        </ul>
+      </nav>
+      <p class="footer-contact">{{t.footer.contact}}<br>{{@email}}</p>
+    </div>
+    <p class="fineprint">{{t.footer.trademarks}}</p>
+  </div>
+</footer>

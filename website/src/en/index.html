@@ -1,0 +1,30 @@
+---
+title: Touchstone – Your iPhone becomes the Mac's trackpad, and buzzes at false info
+description: A free app that turns your iPhone into a trackpad for your Mac and buzzes when the cursor rests on false information on a web page.
+---
+<section class="hero wrap">
+  <div class="hero-text">
+    <h1><span>Your iPhone becomes the trackpad,</span> <span>and buzzes at false info</span></h1>
+    <p class="lead">The black iPhone screen is your Mac's trackpad. When the cursor rests on false information, your iPhone buzzes.</p>
+    <div class="actions">
+      {{@button key="appStoreURL" label=t.cta.appStore}}
+      {{@button key="macDownloadURL" label=t.cta.mac variant="secondary"}}
+      {{@button key="chromeStoreURL" label=t.cta.chrome variant="secondary"}}
+    </div>
+    <p class="note">Free · iPhone with iOS 17 or later · Mac with macOS 14 or later</p>
+  </div>
+  <div class="hero-art">
+    <img class="app-icon" src="{{root}}assets/img/icon-256.png" width="160" height="160" alt="{{t.iconAlt}}">
+  </div>
+</section>
+
+<section class="section wrap video-section" aria-labelledby="video-title">
+  <h2 id="video-title" class="visually-hidden">How-to video, about one minute</h2>
+  <div class="video-card">
+    <video id="howto" controls playsinline preload="metadata" poster="{{root}}assets/video/howto-en.jpg" aria-label="How-to video, about one minute">
+      <source src="{{root}}assets/video/howto-en.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="chips" role="group" aria-label="Jump to a step"><button type="button" class="chip" data-t="3.6">Install</button><button type="button" class="chip" data-t="10">Connect</button><button type="button" class="chip" data-t="19">Permission</button><button type="button" class="chip" data-t="25.5">Extension</button><button type="button" class="chip" data-t="33">Trackpad</button><button type="button" class="chip" data-t="47.5">Buzz</button></div>
+  <script src="{{root}}assets/js/howto.js" defer></script>
+</section>

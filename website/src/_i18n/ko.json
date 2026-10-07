@@ -1,0 +1,29 @@
+{
+  "langName": "한국어",
+  "locale": "ko_KR",
+  "siteNameLocal": "시금석",
+  "iconAlt": "Touchstone 앱 아이콘: 금빛 자국이 난 까만 조약돌",
+  "skip": "본문으로 바로 가기",
+  "soon": "곧 공개돼요",
+  "nav": {
+    "label": "주요 메뉴",
+    "home": "홈",
+    "support": "지원",
+    "privacy": "개인정보",
+    "holder": "트랙패드 거치대"
+  },
+  "lang": {
+    "label": "언어 선택"
+  },
+  "cta": {
+    "appStore": "App Store에서 받기",
+    "mac": "Mac 앱 받기",
+    "chrome": "Chrome 웹 스토어에서 받기"
+  },
+  "footer": {
+    "nav": "사이트 정보",
+    "summary": "Touchstone은 개발자가 운영하는 서버가 없고, 이용자의 정보를 수집하지 않아요.",
+    "contact": "문의",
+    "trademarks": "Apple, iPhone, Mac, Safari, App Store는 Apple Inc.의 상표예요. Chrome과 Gemini는 Google LLC의, ChatGPT와 OpenAI는 OpenAI의, Claude는 Anthropic의 상표예요. Touchstone은 이 회사들과 제휴하거나 보증을 받은 앱이 아니에요."
+  }
+}

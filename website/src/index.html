@@ -1,0 +1,23 @@
+---
+title: Touchstone (시금석)
+description: iPhone이 Mac의 트랙패드가 되고, 틀린 정보는 진동으로 알려줘요. Your iPhone becomes a Mac trackpad and buzzes at false info.
+layout: bare
+---
+<script>
+  // Korean browsers go to /ko/, everyone else to /en/. Relative paths keep this working under a sub-path (GitHub Pages).
+  (function () {
+    var language = String(navigator.language || "").toLowerCase();
+    location.replace((language.indexOf("ko") === 0 ? "ko/" : "en/") + location.search + location.hash);
+  })();
+</script>
+<main id="main" class="chooser wrap">
+  <img src="{{root}}assets/img/icon-256.png" width="96" height="96" alt="">
+  <h1>Touchstone <span lang="ko">시금석</span></h1>
+  <noscript>
+    <p class="muted"><span lang="ko">언어를 골라 주세요.</span> <span lang="en">Choose your language.</span></p>
+    <nav class="chooser-links" aria-label="Language / 언어">
+      {{#each langs}}<a class="btn btn-secondary" href="{{href}}" lang="{{code}}" hreflang="{{hreflang}}">{{name}}</a>
+      {{/each}}
+    </nav>
+  </noscript>
+</main>
