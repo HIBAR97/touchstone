@@ -5,6 +5,7 @@
   if (!root) return;
   const model = root.querySelector("#holder-model");
   const dl = root.querySelector("#holder-dl");
+  const fit = root.querySelector("#holder-fit");
   const img = root.querySelector("#holder-img");
   const hint = root.querySelector("#holder-hint");
   const weak = root.querySelector("#holder-weak");
@@ -38,6 +39,10 @@
     const file = id + "_" + variant + ".stl";
     dl.href = root.dataset.stl + variant + "/" + file;
     dl.download = file;
+    if (fit) {
+      fit.href = root.dataset.stl + "fit-test/" + id + "_fit-test.stl";
+      fit.download = id + "_fit-test.stl";
+    }
 
     const src = root.dataset.img + variant + "/" + id + ".webp";
     if (!img.src.endsWith(src)) {
